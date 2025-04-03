@@ -10,5 +10,3 @@ VALUES
 ((SELECT idReceta FROM Recetas WHERE Nombre = 'Sopa de Calabaza'), 
  (SELECT idIngrediente FROM Ingredientes WHERE Nombre = 'Perejil'), 5);
 GO
-
-SELECT * FROM Ingredientes_recetas
